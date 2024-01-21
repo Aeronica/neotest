@@ -112,6 +112,7 @@ public class ExampleMod
     {
         // Do something when the server starts
         LOGGER.info("HELLO from server starting");
+        LOGGER.info("LET'S TEST A SIGNED COMMIT");
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
